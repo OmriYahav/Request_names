@@ -4,12 +4,13 @@ This is a Python program that generates random names using the Random User API. 
 # Installation
 To use this program, you need to have Python installed on your computer. You also need to install the requests library. You can do this by running the following command in your terminal: 
 
-<h3>pip install requests
+<h3>pip install requests</h3>
 
 
 # Usage
 To run the program, open your terminal and navigate to the directory where the program is saved. Then run the following command:
-<h3>python name_generator.py
+
+<h3>python name_generator.py</h3>
 
 The program will prompt you to enter a number between 1-100. Once you enter a valid number, the program will generate that number of random names using the Random User API.
 
