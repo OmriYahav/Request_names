@@ -19,9 +19,9 @@ class CheckInputNumber():
             return True
 
 
-# Define a class to print random names
+# Define a class to print random names.
 class PrintName(CheckInputNumber):
-    # Define a method to generate random names
+    # Define a method to generate random names.
     def generate_names(self):
         # Call the InputValidation method to validate user input.
         if not self.InputValidation():
@@ -32,13 +32,13 @@ class PrintName(CheckInputNumber):
         while counter < self.userInput:
             # Make a request to the Random User API using the requests library.
             res = requests.get('https://randomuser.me/api/')
-            # Convert the JSON response into a Python dictionary
+            # Convert the JSON response into a Python dictionary.
             nameJson = res.json()
-            # Retrieve the first name from the dictionary
+            # Retrieve the first name from the dictionary.
             name = nameJson['results'][0]['name']['first']
-            # Print the name to the console
+            # Print the name to the console.
             print(name)
-            # Increment the counter
+            # Increment the counter.
             counter += 1
 
 
