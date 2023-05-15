@@ -32,7 +32,7 @@ class PrintName(CheckInputNumber):
         while counter < self.userInput:
             # Make a request to the Random User API using the requests library.
             res = requests.get('https://randomuser.me/api/')
-            # Convert the JSON response into a Python dictionary
+            # Convert the JSON response into a Python dictionary.
             nameJson = res.json()
             # Retrieve the first name from the dictionary.
             name = nameJson['results'][0]['name']['first']
