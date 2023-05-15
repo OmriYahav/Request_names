@@ -1,5 +1,5 @@
 import requests
-
+#Name Generator from randomuser.me
 # Define a class to check user input.
 class CheckInputNumber():
     def __init__(self):
