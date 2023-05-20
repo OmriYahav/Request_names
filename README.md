@@ -1,4 +1,4 @@
-# Name Generator:----------
+# Name Generator:
 This is a Python script that generates random names using the Random User API. It asks the user to input a number between 1-100, and then generates that number of random names using the API. The program uses the requests library to make HTTP requests to the Random User API.
 
 # Installation:
